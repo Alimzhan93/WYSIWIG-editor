@@ -1,17 +1,17 @@
 <template>
   <div class="home">
-    <hello-world></hello-world>
+    <wysiwyg-editor></wysiwyg-editor>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import WysiwygEditor from '@/components/WysiwygEditor.vue'
 
 export default {
   name: 'HomeView',
   components: {
-    HelloWorld
+    WysiwygEditor
   }
 }
 </script>
